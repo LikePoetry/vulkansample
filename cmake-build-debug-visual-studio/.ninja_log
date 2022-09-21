@@ -1,15 +1,16 @@
 # ninja log v5
 795	1526	6854301328511499	untitled1.exe	dd688a164a8d4ade
-0	153	6854304367032998	build.ninja	7742da1f769a7fad
-772	1506	6854303369661283	VulkanSample.exe	98cf961649790737
-1	320	6854303358341526	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
+0	153	6854556144912736	build.ninja	7742da1f769a7fad
+1315	1700	6854555240685953	VulkanSample.exe	79fe65107dff6128
+1	1736	6854534533995448	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
 17	345	6854303358580878	CMakeFiles/VulkanSample.dir/backend/imgui_impl_vulkan.cpp.obj	2163d83d37d7d4d7
+2	1223	6854555237334907	CMakeFiles/VulkanSample.dir/Entity.cpp.obj	c0713edbd79f01ff
 9	772	6854303362819554	CMakeFiles/VulkanSample.dir/backend/imgui_impl_glfw.cpp.obj	39f93e5470d76dff
-1	918	6854340456822560	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
-918	1297	6854340459734774	VulkanSample.exe	98cf961649790737
-0	885	6854340965398063	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
-886	1232	6854340968080875	VulkanSample.exe	98cf961649790737
-2	1322	6854341454170021	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
-1322	1881	6854341458148659	VulkanSample.exe	98cf961649790737
-2	1482	6854427865522891	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
-1482	1982	6854427868758252	VulkanSample.exe	98cf961649790737
+8	1315	6854555238212568	CMakeFiles/VulkanSample.dir/Scene.cpp.obj	938b40228dbc5678
+5	1205	6854564996649535	CMakeFiles/VulkanSample.dir/Scene.cpp.obj	938b40228dbc5678
+2	877	6854565769879241	CMakeFiles/VulkanSample.dir/main.cpp.obj	2a5714133431bc6f
+878	1374	6854565773654833	VulkanSample.exe	79fe65107dff6128
+5	1061	6854570068418924	CMakeFiles/VulkanSample.dir/Scene.cpp.obj	938b40228dbc5678
+9	1069	6854570068518664	CMakeFiles/VulkanSample.dir/Entity.cpp.obj	c0713edbd79f01ff
+9	913	6854570895489031	CMakeFiles/VulkanSample.dir/Entity.cpp.obj	c0713edbd79f01ff
+6	964	6854570895997667	CMakeFiles/VulkanSample.dir/Scene.cpp.obj	938b40228dbc5678

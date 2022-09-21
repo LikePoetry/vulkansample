@@ -16,4 +16,4 @@ link_libraries($ENV{VULKAN_SDK}/Lib32/vulkan-1.lib)
 
 add_executable(VulkanSample main.cpp
         backend/imgui_impl_glfw.cpp
-        backend/imgui_impl_vulkan.cpp)
+        backend/imgui_impl_vulkan.cpp Entity.cpp Entity.h Scene.cpp Scene.h Components.h)

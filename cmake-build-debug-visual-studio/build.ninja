@@ -73,6 +73,22 @@ build CMakeFiles\VulkanSample.dir\backend\imgui_impl_vulkan.cpp.obj: CXX_COMPILE
   TARGET_COMPILE_PDB = CMakeFiles\VulkanSample.dir\
   TARGET_PDB = VulkanSample.pdb
 
+build CMakeFiles\VulkanSample.dir\Entity.cpp.obj: CXX_COMPILER__VulkanSample_Debug F$:\VulkanWorkarea\CPlusSamples\vulkansample\Entity.cpp || cmake_object_order_depends_target_VulkanSample
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -IF:\VulkanWorkarea\CPlusSamples\vulkansample\vendor\include -IF:\VulkanWorkarea\CPlusSamples\vulkansample\glm -IF:\VulkanWorkarea\CPlusSamples\vulkansample\imgui -IF:\VulkanSDK\1.2.170.0\Include
+  OBJECT_DIR = CMakeFiles\VulkanSample.dir
+  OBJECT_FILE_DIR = CMakeFiles\VulkanSample.dir
+  TARGET_COMPILE_PDB = CMakeFiles\VulkanSample.dir\
+  TARGET_PDB = VulkanSample.pdb
+
+build CMakeFiles\VulkanSample.dir\Scene.cpp.obj: CXX_COMPILER__VulkanSample_Debug F$:\VulkanWorkarea\CPlusSamples\vulkansample\Scene.cpp || cmake_object_order_depends_target_VulkanSample
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -IF:\VulkanWorkarea\CPlusSamples\vulkansample\vendor\include -IF:\VulkanWorkarea\CPlusSamples\vulkansample\glm -IF:\VulkanWorkarea\CPlusSamples\vulkansample\imgui -IF:\VulkanSDK\1.2.170.0\Include
+  OBJECT_DIR = CMakeFiles\VulkanSample.dir
+  OBJECT_FILE_DIR = CMakeFiles\VulkanSample.dir
+  TARGET_COMPILE_PDB = CMakeFiles\VulkanSample.dir\
+  TARGET_PDB = VulkanSample.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target VulkanSample
@@ -81,7 +97,7 @@ build CMakeFiles\VulkanSample.dir\backend\imgui_impl_vulkan.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable VulkanSample.exe
 
-build VulkanSample.exe: CXX_EXECUTABLE_LINKER__VulkanSample_Debug CMakeFiles\VulkanSample.dir\main.cpp.obj CMakeFiles\VulkanSample.dir\backend\imgui_impl_glfw.cpp.obj CMakeFiles\VulkanSample.dir\backend\imgui_impl_vulkan.cpp.obj | ..\vendor\lib\glfw3.lib ..\vendor\lib\imgui.lib F$:\VulkanSDK\1.2.170.0\Lib32\vulkan-1.lib
+build VulkanSample.exe: CXX_EXECUTABLE_LINKER__VulkanSample_Debug CMakeFiles\VulkanSample.dir\main.cpp.obj CMakeFiles\VulkanSample.dir\backend\imgui_impl_glfw.cpp.obj CMakeFiles\VulkanSample.dir\backend\imgui_impl_vulkan.cpp.obj CMakeFiles\VulkanSample.dir\Entity.cpp.obj CMakeFiles\VulkanSample.dir\Scene.cpp.obj | ..\vendor\lib\glfw3.lib ..\vendor\lib\imgui.lib F$:\VulkanSDK\1.2.170.0\Lib32\vulkan-1.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = ..\vendor\lib\glfw3.lib  ..\vendor\lib\imgui.lib  F:\VulkanSDK\1.2.170.0\Lib32\vulkan-1.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
