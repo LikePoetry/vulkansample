@@ -1,0 +1,3 @@
+F:/VulkanWorkarea/CPlusSamples/untitled1/imgui/cmake-build-debug/CMakeFiles/imgui.dir
+F:/VulkanWorkarea/CPlusSamples/untitled1/imgui/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/VulkanWorkarea/CPlusSamples/untitled1/imgui/cmake-build-debug/CMakeFiles/rebuild_cache.dir

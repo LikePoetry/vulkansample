@@ -1,0 +1,7 @@
+# ninja log v5
+7	475	6854281022462602	CMakeFiles/imgui.dir/imgui_tables.cpp.obj	24b7f280be1dfa27
+14	530	6854281023051028	CMakeFiles/imgui.dir/imgui_demo.cpp.obj	9e97f23e5b1dd227
+31	613	6854281023858869	CMakeFiles/imgui.dir/imgui_draw.cpp.obj	b1ae789198966f75
+23	667	6854281024427352	CMakeFiles/imgui.dir/imgui_widgets.cpp.obj	7e539963cdc7701c
+1	952	6854281027289708	CMakeFiles/imgui.dir/imgui.cpp.obj	266f295cb208befd
+952	1078	6854281027898071	imgui.lib	bf83a1b84376f2f
